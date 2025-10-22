@@ -87,4 +87,3 @@ The application follows a two-stage RAG process:
 - Image and PDF processing (page rendering + embedding) can take time, especially for many items or large files. Sample images are cached after the first load; PDF processing currently happens on each upload within a session.
 - Ensure your API keys have the necessary permissions and quotas for the Cohere and Gemini models used.
 - The quality of the answer depends on both the relevance of the retrieved image and the capability of the Gemini model to interpret the image based on the question.
-
